@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/drawable/gradient_background.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/layout/activity_calculos.xml" value="0.25" />
         <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/layout/activity_carga.xml" value="0.1921875" />
         <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/layout/activity_contacto.xml" value="0.33" />
+        <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/layout/activity_locales.xml" value="0.33" />
         <entry key="..\:/Users/Nico/Desktop/AndroidProjects/ProyectoAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
