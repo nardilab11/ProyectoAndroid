@@ -9,9 +9,9 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView5"
-        android:layout_width="360dp"
-        android:layout_height="162dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="380dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="16dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
@@ -39,8 +39,8 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="327dp"
-                android:layout_height="98dp"
+                android:layout_width="353dp"
+                android:layout_height="109dp"
                 android:justificationMode="inter_word"
                 android:text="Acá puede administrar sus locales. Para añadir un local, ingrese todos los datos del local. Para mostrar y eliminar un local en específico, solo ingrese el ID correspondiente. Para modificar un local específico, ingrese el ID del local y luego la información a modificar."
                 android:textColor="#3F51B5"
@@ -215,8 +215,8 @@
     <androidx.cardview.widget.CardView
         android:layout_width="360dp"
         android:layout_height="210dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
