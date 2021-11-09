@@ -43,7 +43,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/etUsuario"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:ems="10"
@@ -53,12 +53,12 @@
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName3"
+                    android:id="@+id/etContrasena"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:ems="10"
                     android:hint="Contraseña"
-                    android:inputType="textPersonName"
+                    android:inputType="textPassword"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -80,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#50C9C3"
-                    android:onClick="Carga"
+                    android:onClick="Ingresar"
                     android:text="Ingresar"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="15dp"
@@ -99,7 +99,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvLogin"
                 android:layout_width="289dp"
                 android:layout_height="47dp"
                 android:text="TextView"
@@ -107,6 +107,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:visibility="invisible"
+                android:justificationMode="inter_word"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

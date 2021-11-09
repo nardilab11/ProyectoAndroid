@@ -37,7 +37,9 @@ public class Carga_act extends AppCompatActivity {
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
+            String usuarioActivoLogin = getIntent().getStringExtra("usuarioActivo");
             Intent i = new Intent(getBaseContext(), Home_act.class);
+            i.putExtra("usuarioActivo2", usuarioActivoLogin);
             startActivity(i);
             finish();
         }
