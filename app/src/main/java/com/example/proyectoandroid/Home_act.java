@@ -53,7 +53,7 @@ public class Home_act extends AppCompatActivity {
     }
 
     @Override
-    protected void onResume() { //Cuando esta Activity vuelve a estar activa...
+    protected void onResume() {
         super.onResume();
         videoBotellas.start();
     }
