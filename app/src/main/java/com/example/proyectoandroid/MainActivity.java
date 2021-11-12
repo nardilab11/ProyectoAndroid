@@ -46,11 +46,13 @@ public class MainActivity extends AppCompatActivity {
             if(!exito){
                 tvLogin.setVisibility(View.VISIBLE);
                 tvLogin.setText("Credenciales incorrectas. Intente otra vez.");
+                LimpiarLogin();
             }else{
                 Intent i = new Intent(this, Carga_act.class);
                 i.putExtra("usuarioActivo", inputUsuario);
                 startActivity(i);
                 tvLogin.setVisibility(View.INVISIBLE);
+                LimpiarLogin();
             }
         }
     }
@@ -58,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
     public void Contacto(View view){
         Intent i = new Intent(this, Contacto_act.class);
         startActivity(i);
+    }
+
+    public void LimpiarLogin(){
+        etUsuario.setText("");
+        etContrasena.setText("");
     }
 
 }

@@ -81,7 +81,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
-                    android:id="@+id/editTextNumber"
+                    android:id="@+id/etIDLoc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -90,7 +90,7 @@
                     android:minHeight="48dp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/etNomLoc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -99,7 +99,7 @@
                     android:minHeight="48dp" />
 
                 <EditText
-                    android:id="@+id/editTextNumber2"
+                    android:id="@+id/etStockBotLoc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -108,7 +108,7 @@
                     android:minHeight="48dp" />
 
                 <EditText
-                    android:id="@+id/editTextNumber3"
+                    android:id="@+id/etStockBidLoc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -176,7 +176,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:id="@+id/textView22"
+                        android:id="@+id/tvIDLoc"
                         android:layout_width="35dp"
                         android:layout_height="40dp"
                         android:gravity="center"
@@ -184,7 +184,7 @@
                         android:textColor="#3F51B5" />
 
                     <TextView
-                        android:id="@+id/textView23"
+                        android:id="@+id/tvNomLoc"
                         android:layout_width="150dp"
                         android:layout_height="40dp"
                         android:gravity="center"
@@ -192,7 +192,7 @@
                         android:textColor="#3F51B5" />
 
                     <TextView
-                        android:id="@+id/textView24"
+                        android:id="@+id/tvStockBotLoc"
                         android:layout_width="75dp"
                         android:layout_height="40dp"
                         android:gravity="center"
@@ -200,7 +200,7 @@
                         android:textColor="#3F51B5" />
 
                     <TextView
-                        android:id="@+id/textView25"
+                        android:id="@+id/tvStockBidLoc"
                         android:layout_width="75dp"
                         android:layout_height="40dp"
                         android:gravity="center"
@@ -244,6 +244,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:backgroundTint="#50C9C3"
+                    android:onClick="guardarLocal"
                     android:text="Añadir Local"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="15dp" />
@@ -253,6 +254,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:backgroundTint="#50C9C3"
+                    android:onClick="mostrarLocal"
                     android:text="Mostrar Local"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="15dp" />
@@ -262,6 +264,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:backgroundTint="#50C9C3"
+                    android:onClick="eliminarLocal"
                     android:text="Eliminar Local"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="15dp" />
@@ -271,6 +274,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:backgroundTint="#50C9C3"
+                    android:onClick="modificarLocal"
                     android:text="Modificar Local"
                     android:textColor="#FFFFFF"
                     app:cornerRadius="15dp" />
